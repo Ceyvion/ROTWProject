@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+require_relative "../lib/rotw_env.rb"
+
+Pry.start
