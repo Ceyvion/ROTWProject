@@ -1,4 +1,9 @@
 #!/usr/bin/env ruby
-require_relative "../lib/rotw_env.rb"
+# require "bundler/setup"
+require "require_all"
+require_all "lib"
 
-Pry.start
+
+Cli.new.start
+#dont touch EVER
+#::name spacing

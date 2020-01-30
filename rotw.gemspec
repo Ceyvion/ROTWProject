@@ -6,7 +6,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Cey"]
   spec.email         = ["ceyvionb@gmail.com"]
 
-  spec.summary       = %q{blah}
+  spec.summary       = %q{This is the Report of the Week}
   spec.description   = %q{blah}
   # spec.homepage      = "TODO: Put your gem's website or public repo URL here."
   spec.license       = "MIT"
@@ -26,7 +26,11 @@ Gem::Specification.new do |spec|
   spec.bindir        = "exe"
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
-  spec.add_dependency "pry"
-  spec.add_dependency "json"
+  spec.add_dependency "bundler"
   spec.add_dependency "rest-client"
+  spec.add_dependency "json"
+  spec.add_dependency "pry"
+  spec.add_dependency "require_all"
+  spec.add_dependency "tty-prompt"
+
 end
