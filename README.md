@@ -1,6 +1,6 @@
 # Rotw
 
-Overview: This is a gem that will display reports from Report of the Week. It connects to the API (Report of the Week), and it takes a JSON response, then takes it and passes that through to the make_report method to store created objects to the @@all array. Then when the user enters the 'list' option, after selecting to view, a menu of the latest reports are displayed, and then user has an option to view all of the ratings, and manufacturers from that object.
+Overview: This is a gem that will display reports from Report of the Week. It connects to the API (Report of the Week), and it takes a JSON response, then takes it and passes that through to the make_report method to store created objects to the `@@all` array. Then when the user enters the 'list' option, after selecting to view, a menu of the latest reports are displayed, and then user has an option to view all of the ratings, and manufacturers from that object.
 
 ## Installation
 
